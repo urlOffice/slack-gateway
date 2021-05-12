@@ -1,0 +1,28 @@
+{
+  "services":{
+    "organization": {
+      "name": "organization",
+      "host": "http://localhost",
+      "port": "3002",
+      "url": "http://localhost:3002/organization"
+    },
+    "user":{
+      "name": "user",
+      "host": "http://localhost",
+      "port": "3003",
+      "url": "http://localhost:3003/user"
+    },
+    "joke": {
+      "name": "joke",
+      "host": "http://localhost",
+      "port": "3004",
+      "url": "http://localhost:3004/joke"
+    },
+    "like": {
+      "name": "like-management",
+      "host": "http://localhost",
+      "port": "3006",
+      "url": "http://localhost:3006/like"
+    }
+  }
+}
